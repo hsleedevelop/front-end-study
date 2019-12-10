@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iOS Alert Test</title>
+    <script type="text/javascript">
+        function alertTest() {
+            alert('alert test')
+        }
+        function confirmTest() {
+            confirm("confirm test")
+        }
+        function textInputTest() {
+            var person = prompt("Please enter your name", "Harry Potter");
+            if (person == null || person == "") {
+                txt = "User cancelled the prompt.";
+            } else {
+                txt = "Hello " + person + "! How are you today?";
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" onclick="alertTest()">alert</input><br/>
+    <input type="button" onclick="confirmTest()">confirm</input><br/>
+    <input type="button" onclick="textInputTest()">input</input><br/>
+</body>
+</html>
