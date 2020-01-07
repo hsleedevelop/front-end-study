@@ -1,0 +1,14 @@
+{
+  "name": "hslee_first_pub",
+  "version": "0.0.1",
+  "description": "hslee_first_pub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hslee"
+  ],
+  "author": "hslee",
+  "license": "ISC"
+}
